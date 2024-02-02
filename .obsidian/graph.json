@@ -1,0 +1,51 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "[\"category\":MOC]",
+      "color": {
+        "a": 1,
+        "rgb": 16326548
+      }
+    },
+    {
+      "query": "[\"category\":People]",
+      "color": {
+        "a": 1,
+        "rgb": 1376228
+      }
+    },
+    {
+      "query": "path:Atlas/Notes/Ideas  ",
+      "color": {
+        "a": 1,
+        "rgb": 15793956
+      }
+    },
+    {
+      "query": "path:+  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.389599609375,
+  "lineSizeMultiplier": 2.36357828776042,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.9733310607785429,
+  "close": true
+}

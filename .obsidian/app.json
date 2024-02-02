@@ -1,0 +1,10 @@
+{
+  "alwaysUpdateLinks": true,
+  "showLineNumber": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "+",
+  "showUnsupportedFiles": false,
+  "attachmentFolderPath": "Atlas/Notes/Sources/Attachments",
+  "readableLineLength": true,
+  "promptDelete": false
+}
