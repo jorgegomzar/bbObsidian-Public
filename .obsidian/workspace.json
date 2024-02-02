@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "placeholder",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -59,8 +59,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -144,15 +143,15 @@
       "cmdr:Git: Pull": false
     }
   },
-  "active": "f73b2f5a87ef43ac",
+  "active": "ac6768b6810fe44c",
   "lastOpenFiles": [
-    "Atlas/Maps/Guides Map.md",
     "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
+    "Home.md",
+    "Atlas/Maps/Guides Map.md",
     "Atlas/Notes/Sources/Attachments/logstash.yml",
     "+/2024-02-02.md",
     "Atlas/Notes/Sources/Attachments/servertest.ini",
     "Atlas/Notes/Sources/Attachments/pzlsm.cfg",
-    "Home.md",
     "README.md",
     "Atlas structure.md",
     "Efforts",
