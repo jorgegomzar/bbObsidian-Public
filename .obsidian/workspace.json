@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bf324688435306a6",
+        "id": "e9e157079e0f9e00",
         "type": "tabs",
         "children": [
           {
-            "id": "8d70e3f607fcaf33",
+            "id": "ac6768b6810fe44c",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "39f765e08c274c3b",
+            "id": "b1bf6a1bad242bbf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "+/Project Zomboid server with monitorization.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "+/Project Zomboid server with monitorization.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "+/Project Zomboid server with monitorization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "+/Project Zomboid server with monitorization.md"
               }
             }
           }
@@ -156,11 +156,17 @@
       "cmdr:Git: Pull": false
     }
   },
-  "active": "39f765e08c274c3b",
+  "active": "e889824180601d78",
   "lastOpenFiles": [
+    "Atlas/Notes/Sources/Attachments/logstash.yml",
+    "+/2024-02-02.md",
+    "+/Project Zomboid server with monitorization.md",
+    "Atlas/Notes/Sources/Attachments/servertest.ini",
+    "Atlas/Notes/Sources/Attachments/pzlsm.cfg",
+    "Atlas/Maps/Guides Map.md",
     "Home.md",
-    "Atlas structure.md",
     "README.md",
+    "Atlas structure.md",
     "Efforts",
     "Calendar",
     "Atlas/Notes/Sources/Notes/Docker.md",
@@ -184,17 +190,12 @@
     "Atlas/Notes/People/Jorge Gómez Zarzosa.md",
     "Atlas/Utilities/Templates/TEMPLATE - People.md",
     "Atlas/Utilities/Templates/TEMPLATE - Map.md",
-    "Atlas/Maps/FAQ Map.md",
-    "Atlas/Maps/Reporting People Map.md",
-    "Atlas/Notes/Ideas/Cuenator.md",
     "Atlas/Canvas/Untitled.canvas",
     "Atlas/Notes/Sources/Notes",
     "Atlas/Utilities/Templates",
     "Atlas/Utilities",
     "Atlas/Notes/People",
     "Atlas/Notes/Ideas",
-    "Atlas/Canvas",
-    "Atlas/Notes/Sources/Attachments",
-    "Atlas/Notes/Sources"
+    "Atlas/Canvas"
   ]
 }

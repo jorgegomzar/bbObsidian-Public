@@ -1,0 +1,86 @@
+input {
+	file { path => "/mnt/*.txt" }
+	tcp { port => 50000 }
+}
+
+## Add your filters / logstash plugins configuration here
+filter {
+	# Adding drop flag to decide whether to drop the whole event or not
+	mutate { add_field => { "drop" => "true" } }
+
+
+	# Get log_file from path
+	grok {
+		match => { "[log][file][path]" => ".*_(?<log_file>.*)\.txt$" }
+	}
+
+	# USER --> death, connection, disconnection
+	if "user" in [log_file] {
+		if "died" in [message] {
+			grok {
+				match => {
+					"message" => "\[(?<timestamp>.*?)\] user (?<player>.*?) died at \(\d*,\d*,\d*\) \((?<pz_extra>.*?)\)\."
+				}
+			}
+			mutate { add_field => { "pz_event" => "player_death" } }
+			mutate { update => { "drop" => "false" } }
+
+		}
+
+		if "fully connected" in [message] {
+			grok {
+				match => {
+					"message" => "\[(?<timestamp>.*?)\] \d* \"(?<player>.*?)\" fully connected \(\d*,\d*,\d*\)\."
+				}
+			}
+			mutate { add_field => { "pz_event" => "player_connection" } }
+			mutate { update => { "drop" => "false" } }
+		}
+
+		if "disconnected player" in [message] {
+			grok {
+				match => {
+					"message" => "\[(?<timestamp>.*?)\] \d* \"(?<player>.*?)\" disconnected player \(\d*,\d*,\d*\)\."
+				}
+			}
+			mutate { add_field => { "pz_event" => "player_disconnection" } }
+			mutate { update => { "drop" => "false" } }
+		}
+	}
+
+	# PLAYER --> perks, traits, stats, health, profession, kills, hours_alive, hp, infected
+	if [log_file] == "player" {
+		if "tick" in [message] {
+			grok {
+				match => {
+					"message" => "\[(?<timestamp>.*?)\] \d* \"(?<player>.*?)\" tick perks=\{(?<perks>.*?)\} traits=\[(?<traits>.*?)\] stats=\{(?<stats>\"profession\":\"(?<profession>.*?)\",\"kills\":(?<kills>\d*),\"hours\":(?<hours_alive>.*?))\} health=\{(?<health>\"health\":(?<hp>.*?),\"infected\":(?<infected>.*?))\} safehouse owner=(?<safehouse_owner>.*?) safehouse member=(?<safehouse_member>.*?) \(\d*,\d*,\d*\)\."
+				}
+			}
+			mutate {
+				add_field => { "pz_event" => "player_stats" }
+				convert => {
+					"kills" => integer
+					"hours_alive" => float
+					"hp" => integer
+					"infected" => boolean
+				}
+			}
+
+			mutate { update => { "drop" => "false" } }
+		}
+	}
+
+	# Drop if not parsed
+	if [drop] == "true" { drop { } }
+	# Remove drop flag
+	# drop { remove_field => [ "drop" ] }
+}
+
+output {
+	elasticsearch {
+		hosts => "http://elasticsearch:9200"
+		user => "logstash_internal"
+		password => "${LOGSTASH_INTERNAL_PASSWORD}"
+		# index => "pz-%{+YYYY.MM.dd}"
+	}
+}

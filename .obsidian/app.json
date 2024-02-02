@@ -3,7 +3,7 @@
   "showLineNumber": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "+",
-  "showUnsupportedFiles": false,
+  "showUnsupportedFiles": true,
   "attachmentFolderPath": "Atlas/Notes/Sources/Attachments",
   "readableLineLength": true,
   "promptDelete": false
