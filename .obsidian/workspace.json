@@ -32,6 +32,14 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2e9075cf8eb090c2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
         "currentTab": 1
@@ -158,9 +166,10 @@
   },
   "active": "341ecaff1f476b30",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
     "Atlas/Maps/Guides Map.md",
     "Home.md",
-    "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
     "Atlas/Notes/Sources/Attachments/logstash.yml",
     "+/2024-02-02.md",
     "Atlas/Notes/Sources/Attachments/servertest.ini",
