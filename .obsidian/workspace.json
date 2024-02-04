@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "341ecaff1f476b30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md"
               }
             }
           }
@@ -143,11 +156,11 @@
       "cmdr:Git: Pull": false
     }
   },
-  "active": "ac6768b6810fe44c",
+  "active": "341ecaff1f476b30",
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
-    "Home.md",
     "Atlas/Maps/Guides Map.md",
+    "Home.md",
+    "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
     "Atlas/Notes/Sources/Attachments/logstash.yml",
     "+/2024-02-02.md",
     "Atlas/Notes/Sources/Attachments/servertest.ini",

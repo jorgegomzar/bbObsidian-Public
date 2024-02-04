@@ -32,5 +32,15 @@
       ],
       "key": "."
     }
+  ],
+  "workspace:copy-url": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "L"
+    }
   ]
 }
