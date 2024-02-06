@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
+                "file": "index.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md"
+                "file": "index.md"
               }
             }
           }
@@ -164,12 +164,12 @@
       "cmdr:Git: Pull": false
     }
   },
-  "active": "341ecaff1f476b30",
+  "active": "e889824180601d78",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
+    "conflict-files-obsidian-git.md",
     "Atlas/Maps/Guides Map.md",
-    "Home.md",
+    "index.md",
     "Atlas/Notes/Sources/Attachments/logstash.yml",
     "+/2024-02-02.md",
     "Atlas/Notes/Sources/Attachments/servertest.ini",

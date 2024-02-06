@@ -1,5 +1,5 @@
 ---
-category: "[[Home]]"
+category: "[[index]]"
 up: 
 related: 
 for: "[[MOC]]"
