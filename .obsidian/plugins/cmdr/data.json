@@ -6,23 +6,16 @@
   "fileMenu": [],
   "leftRibbon": [
     {
-      "id": "obsidian-git:commit",
-      "icon": "git-commit",
-      "name": "Git: Commit all changes",
-      "mode": "any",
-      "color": "#ff0000"
-    },
-    {
-      "id": "obsidian-git:push2",
-      "icon": "upload-cloud",
-      "name": "Git: Push",
-      "mode": "any",
-      "color": "#ff0000"
-    },
-    {
       "id": "obsidian-git:pull",
       "icon": "download-cloud",
       "name": "Git: Pull",
+      "mode": "any",
+      "color": "#ff0000"
+    },
+    {
+      "id": "cmdr:macro-0",
+      "icon": "github",
+      "name": "Git Sync",
       "mode": "any",
       "color": "#ff0000"
     }
@@ -31,7 +24,27 @@
   "titleBar": [],
   "statusBar": [],
   "pageHeader": [],
-  "macros": [],
+  "macros": [
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "obsidian-git:pull"
+        },
+        {
+          "action": 0,
+          "commandId": "obsidian-git:commit"
+        },
+        {
+          "action": 0,
+          "commandId": "obsidian-git:push2"
+        }
+      ],
+      "name": "Git Sync",
+      "icon": "github",
+      "startup": false
+    }
+  ],
   "explorer": [],
   "hide": {
     "statusbar": [],
