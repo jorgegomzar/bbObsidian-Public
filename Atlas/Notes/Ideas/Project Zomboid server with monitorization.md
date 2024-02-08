@@ -1,6 +1,6 @@
 ---
 category: "[[Guide]]"
-up: 
+up: "[[Guides Map]]"
 related:
   - "[[Games]]"
   - "[[Project Zomboid]]"
