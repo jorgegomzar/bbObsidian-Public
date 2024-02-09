@@ -8,8 +8,9 @@ rank: 3
 ---
 ## Context
 - [GitHub issue](https://github.com/jackyzha0/quartz/issues/820)
-# Investigation
+## Investigation
 - [Transformers](https://quartz.jzhao.xyz/advanced/making-plugins#transformers)
 - [[quartz - CrawlLinks transformer explained by GPT API]]
-# Implementation
+## Implementation
 - [Pull request](https://github.com/jackyzha0/quartz/pull/824)
+## Notes

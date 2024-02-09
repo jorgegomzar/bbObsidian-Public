@@ -37,4 +37,3 @@ In a Linux server I've configured 2 cronjobs:
 
 The directory where the repo is living in this server is mounted as a volume in the `/app/src/content` directory in a Docker image running quartz. This way, every time the repo is updated, quartz will render the files as web pages.
 ## Notes
-Updates on already processed notes will work out of the box, but adding new Notes or links will require restarting the app to render all files again.

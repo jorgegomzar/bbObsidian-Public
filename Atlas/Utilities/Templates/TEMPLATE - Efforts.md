@@ -6,3 +6,7 @@ aliases:
 created: <% tp.date.now() %>
 rank: 0
 ---
+## Context
+## Investigation
+## Implementation
+## Notes
