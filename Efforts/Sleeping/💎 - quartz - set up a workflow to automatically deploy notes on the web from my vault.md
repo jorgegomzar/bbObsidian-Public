@@ -31,7 +31,9 @@ Using commander I added a new Macro to the ribbon. This new macro is called `Git
 ![[commander_git_sync.png|350]]
 This way, whenever I want to publish changes to the repo I just need to click on 1 button.
 
-In a Linux server I've configured a cronjob to automatically pull changes from the same git repo every 5 minutes approximately.
+In a Linux server I've configured 2 cronjobs:
+1. To pull changes from the same git repo every 5 minutes. --> to bring changes to already existing files.
+2. To restart the Quartz Docker container every 30 minutes. --> to re-render new files and links.
 
 The directory where the repo is living in this server is mounted as a volume in the `/app/src/content` directory in a Docker image running quartz. This way, every time the repo is updated, quartz will render the files as web pages.
 ## Notes
