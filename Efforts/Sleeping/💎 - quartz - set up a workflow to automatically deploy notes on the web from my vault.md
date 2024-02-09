@@ -11,7 +11,7 @@ related:
   - "[[Cronjob]]"
 aliases: 
 created: 2024-02-09
-rank: 0
+rank: 3
 ---
 ## Context
 The idea is to set up a workflow so every change is synced between my Obsidian Vault and the web using quartz and GitHub.
@@ -34,3 +34,5 @@ This way, whenever I want to publish changes to the repo I just need to click on
 In a Linux server I've configured a cronjob to automatically pull changes from the same git repo every 5 minutes approximately.
 
 The directory where the repo is living in this server is mounted as a volume in the `/app/src/content` directory in a Docker image running quartz. This way, every time the repo is updated, quartz will render the files as web pages.
+## Notes
+Updates on already processed notes will work out of the box, but adding new Notes or links will require restarting the app to render all files again.
