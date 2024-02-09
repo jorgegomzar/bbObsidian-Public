@@ -6,6 +6,7 @@ related:
   - "[[Project Zomboid]]"
   - "[[ELK]]"
 ---
+ejemplo
 ## Resources
 - [Server quick-start and manager](https://github.com/openzomboid/pzlsm)
 - [Log Extender](https://github.com/openzomboid/log-extender)

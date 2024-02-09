@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Maps/Guides Map.md",
+                "file": "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +55,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Atlas/Maps/Guides Map.md",
+                "file": "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Maps/Guides Map.md",
+                "file": "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Maps/Guides Map.md",
+                "file": "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Maps/Guides Map.md"
+                "file": "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md"
               }
             }
           }
@@ -202,15 +202,14 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "cmdr:Git: Commit all changes": false,
-      "cmdr:Git: Push": false,
-      "cmdr:Git: Pull": false
+      "cmdr:Git: Pull": false,
+      "cmdr:Git Sync": false
     }
   },
   "active": "341ecaff1f476b30",
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
     "Atlas/Maps/Guides Map.md",
+    "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
     "index.md",
     "conflict-files-obsidian-git.md",
     "Atlas/Notes/Sources/Attachments/logstash.yml",
