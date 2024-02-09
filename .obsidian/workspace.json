@@ -4,88 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "e9e157079e0f9e00",
+        "id": "0488cd0058eb3e86",
         "type": "tabs",
         "children": [
           {
-            "id": "ac6768b6810fe44c",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "341ecaff1f476b30",
+            "id": "2403c82d61244e8a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
+                "file": "Atlas/Maps/Efforts Map.md",
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "06c5e793983b00e4"
+            }
           },
           {
-            "id": "2e9075cf8eb090c2",
+            "id": "025759f0bd06cdc1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Efforts/On/💎 - quartz - set up a workflow to automatically deploy notes on the web from my vault.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "950c7f84df3b6671",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "bf497a422868a9c7",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1.2819853499273532,
-                  "close": true
-                }
-              }
-            },
-            "group": "06c5e793983b00e4"
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -143,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
+                "file": "Efforts/On/💎 - quartz - set up a workflow to automatically deploy notes on the web from my vault.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
+                "file": "Efforts/On/💎 - quartz - set up a workflow to automatically deploy notes on the web from my vault.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md"
+                "file": "Efforts/On/💎 - quartz - set up a workflow to automatically deploy notes on the web from my vault.md"
               }
             }
           }
@@ -206,11 +153,24 @@
       "cmdr:Git Sync": false
     }
   },
-  "active": "341ecaff1f476b30",
+  "active": "025759f0bd06cdc1",
   "lastOpenFiles": [
-    "Atlas/Maps/Guides Map.md",
-    "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
     "index.md",
+    "Efforts/On/💎 - quartz - set up a workflow to automatically deploy notes on the web from my vault.md",
+    "Atlas/Notes/Sources/Attachments/commander_git_sync.png",
+    "Atlas/Notes/Sources/Attachments/obsidian_git_settings.png",
+    "Efforts/Notes",
+    "Atlas/Maps/Efforts Map.md",
+    "Efforts/Sleeping",
+    "Efforts/Simmering",
+    "Efforts/Ongoing",
+    "Efforts/On",
+    "Atlas/Maps/Guides Map.md",
+    "Atlas/Utilities/Templates/TEMPLATE - People.md",
+    "Atlas/Utilities/Templates/TEMPLATE - Map.md",
+    "Atlas/Utilities/Templates/TEMPLATE - Efforts.md",
+    "Atlas/Utilities/Templates/TEMPLATE - +.md",
+    "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
     "conflict-files-obsidian-git.md",
     "Atlas/Notes/Sources/Attachments/logstash.yml",
     "+/2024-02-02.md",
@@ -231,21 +191,9 @@
     "Atlas/Notes/Ideas/AvUpload FTP.md",
     "Atlas/Maps/Inventory Map.md",
     "Atlas/Maps/Onboarding Map.md",
-    "Atlas/Utilities/Templates/TEMPLATE - +.md",
     "Atlas/Notes/Ideas/aggregations.md",
     "Atlas/Notes/Ideas/Poetry.md",
     "Atlas/Notes/Sources/Notes/Python.md",
-    "Atlas/Maps/Reporting Main Applications Map.md",
-    "Atlas/Notes/Ideas/Git code of conduct.md",
-    "Atlas/Maps/Software Tools Map.md",
-    "Atlas/Notes/People/Jorge Gómez Zarzosa.md",
-    "Atlas/Utilities/Templates/TEMPLATE - People.md",
-    "Atlas/Utilities/Templates/TEMPLATE - Map.md",
-    "Atlas/Canvas/Untitled.canvas",
-    "Atlas/Notes/Sources/Notes",
-    "Atlas/Utilities/Templates",
-    "Atlas/Utilities",
-    "Atlas/Notes/People",
-    "Atlas/Notes/Ideas"
+    "Atlas/Canvas/Untitled.canvas"
   ]
 }

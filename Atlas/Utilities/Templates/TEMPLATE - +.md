@@ -1,5 +1,6 @@
 ---
 category: "[[Placeholder]]"
 up: 
-related:
+related: 
+aliases:
 ---

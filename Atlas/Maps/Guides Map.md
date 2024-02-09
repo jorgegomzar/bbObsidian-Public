@@ -1,7 +1,8 @@
 ---
 category: "[[MOC]]"
-up: "[[index]]"
+up: "[[index|Home]]"
 related: 
+aliases: 
 for: "[[Guide]]"
 ---
 
