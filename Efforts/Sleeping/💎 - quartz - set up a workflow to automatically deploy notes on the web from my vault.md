@@ -21,6 +21,7 @@ The idea is to set up a workflow so every change is synced between my Obsidian V
 - quartz --> Open source NodeJS project to render Markdown files and serve them as web pages.
 - docker + docker-compose --> Software tools to run apps inside containers.
 - cronjob --> GNU software to create cron tasks in Linux systems.
+- post-merge git hook --> Git hook called whenever a merge operation is done (including pulls).
 ## Implementation
 Using obsidian-git I configured my vault to pull changes from the git repo every minute. This way, if someone ever adds content to this repo, we won't be creating merge conflicts too often.
 ![[obsidian_git_settings.png|500]]
@@ -31,9 +32,14 @@ Using commander I added a new Macro to the ribbon. This new macro is called `Git
 ![[commander_git_sync.png|350]]
 This way, whenever I want to publish changes to the repo I just need to click on 1 button.
 
-In a Linux server I've configured 2 cronjobs:
+In a Linux server I've configured 1 cronjobs:
 1. To pull changes from the same git repo every 5 minutes. --> to bring changes to already existing files.
-2. To restart the Quartz Docker container every 30 minutes. --> to re-render new files and links.
+
+Whenever this git pull merges changes to the local branch it triggers a post-merge git hook to rebuild the quartz Docker image and deploy it:
+
+```bash
+
+```
 
 The directory where the repo is living in this server is mounted as a volume in the `/app/src/content` directory in a Docker image running quartz. This way, every time the repo is updated, quartz will render the files as web pages.
 ## Notes
