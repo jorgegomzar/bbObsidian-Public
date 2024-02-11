@@ -6,7 +6,6 @@ for: "[[MOC]]"
 aliases:
   - Home
 ---
-Hola Celia
 
 > [!info]+ # Atlas
 > > *Where would you like to go?*
