@@ -1,5 +1,5 @@
 ---
-category: "[[WIP]]"
+category: "[[ChatGPT]]"
 up: 
 related:
   - "[[ChatGPT]]"
