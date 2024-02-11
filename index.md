@@ -7,8 +7,6 @@ aliases:
   - Home
 ---
 
-[[Code of Conduct]]
-
 > [!info]+ # Atlas
 > > *Where would you like to go?*
 > ---
