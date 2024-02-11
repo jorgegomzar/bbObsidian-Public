@@ -5,20 +5,27 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "[\"category\":MOC]",
       "color": {
         "a": 1,
-        "rgb": 16326548
+        "rgb": 16711680
       }
     },
     {
       "query": "[\"category\":People]",
       "color": {
         "a": 1,
-        "rgb": 1376228
+        "rgb": 3211028
+      }
+    },
+    {
+      "query": "path:Efforts  ",
+      "color": {
+        "a": 1,
+        "rgb": 22015
       }
     },
     {
@@ -32,7 +39,7 @@
       "query": "path:+  ",
       "color": {
         "a": 1,
-        "rgb": 16711680
+        "rgb": 11403519
       }
     }
   ],
@@ -46,6 +53,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.9733310607785429,
+  "scale": 1.4798631310873747,
   "close": true
 }
