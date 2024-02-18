@@ -30,6 +30,7 @@ Instructions:
 > ```
 
 - Copy [[pzlsm.cfg]] to `/home/steam/pz1/config/pzlsm.cfg`
+	- Update `SERVER_NAME` with your desired server name
 	- Update `FIRST_RUN_ADMIN_PASSWORD` with your desired admin password
 - Start the server once to generate all configurations for the PZ server `./server.sh start`
 	- Monitor with `screen -R`
@@ -37,6 +38,7 @@ Instructions:
 - Once the server is fully up, stop it `./server.sh stop now` --> will stop the server while giving a warning of 10 seconds (without the `now` argument it will stop the server in 5 minutes)
 - Copy  [[servertest.ini]] to `/home/steam/pz1/projectzomboid/Zomboid/Server/<SERVER_NAME>.ini`
 	- `SERVER_NAME` comes from your [[pzlsm.cfg]] file
+	- Fill all variables you'll need to use for your server
 - Run `./server.sh start` to start the server again.
 - Profit!
 

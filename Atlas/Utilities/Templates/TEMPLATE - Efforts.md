@@ -3,7 +3,7 @@ category: "[[Efforts]]"
 up: "[[Efforts Map]]"
 related: 
 aliases: 
-created: <% tp.date.now() %>
+created: 2024-02-14
 rank: 0
 ---
 ## Context

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "823f27d882fddcda",
+        "id": "efbaadc334939a9f",
         "type": "tabs",
         "children": [
           {
-            "id": "fa7ec5324f65ba13",
+            "id": "63b345bcd1d52a81",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md"
               }
             }
           }
@@ -140,17 +140,17 @@
       "cmdr:Git Sync": false
     }
   },
-  "active": "fa7ec5324f65ba13",
+  "active": "63b345bcd1d52a81",
   "lastOpenFiles": [
     "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
+    "index.md",
+    "README.md",
     "Atlas/Maps/Guides Map.md",
     "Efforts/Sleeping/💎 - quartz - set up a workflow to automatically deploy notes on the web from my vault.md",
     "Atlas/Maps/Efforts Map.md",
-    "index.md",
     "+/Code of Conduct.md",
     "Atlas/Maps/ChatGPT Map.md",
     "Efforts/Notes/quartz - CrawlLinks transformer explained by GPT API.md",
-    "README.md",
     "Efforts/On/💎 - quartz - parse links from note properties.md",
     "Efforts/On/💎 - quartz - Apply different text color for wiki links depending on web existing or not.md",
     "Atlas/Utilities/Templates/TEMPLATE - Efforts.md",
