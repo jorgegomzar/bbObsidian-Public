@@ -44,6 +44,9 @@ Instructions:
 
 > [!warning] NOTE
 > Project Zomboid server should always be ran by a non sudo user.
+#### Known issues
+> [!faq] Connection error
+> The server might be using an older version compared to the client. Try stopping the server, re-installing it (`./server.sh install`) and then starting it again.
 ### [[ELK]] monitoring
 You neeed:
 - docker
