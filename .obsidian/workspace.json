@@ -20,14 +20,19 @@
             }
           },
           {
-            "id": "37a432f3d068c5d1",
+            "id": "e393484e27bfc3b4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "+/Project Zomboid - Proyecto Estudiante de la UVa ELK dashboard.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
+                "file": "+/Project Zomboid - Proyecto Estudiante de la UVa ELK dashboard.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
+                "file": "+/Project Zomboid - Proyecto Estudiante de la UVa ELK dashboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md"
+                "file": "+/Project Zomboid - Proyecto Estudiante de la UVa ELK dashboard.md"
               }
             }
           }
@@ -148,9 +153,10 @@
       "cmdr:Git Sync": false
     }
   },
-  "active": "63b345bcd1d52a81",
+  "active": "e393484e27bfc3b4",
   "lastOpenFiles": [
     "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
+    "+/Project Zomboid - Proyecto Estudiante de la UVa ELK dashboard.md",
     "index.md",
     "README.md",
     "Atlas/Maps/Guides Map.md",
@@ -189,7 +195,6 @@
     "Atlas/Notes/Ideas/20240205 - Intro to Reporting Eng Tools - Anna Falceto.md",
     "Atlas/Maps/CUED Map.md",
     "Atlas/Notes/Ideas/TVAV File API.md",
-    "Atlas/Notes/Ideas/AvUpload.md",
     "Atlas/Canvas/Untitled.canvas"
   ]
 }
