@@ -23,12 +23,8 @@
             "id": "e393484e27bfc3b4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+/Project Zomboid - Proyecto Estudiante de la UVa ELK dashboard.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -91,7 +87,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/Project Zomboid - Proyecto Estudiante de la UVa ELK dashboard.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +103,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/Project Zomboid - Proyecto Estudiante de la UVa ELK dashboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,9 +124,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "+/Project Zomboid - Proyecto Estudiante de la UVa ELK dashboard.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -151,13 +143,14 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "cmdr:Git: Pull": false,
-      "cmdr:Git Sync": false
+      "cmdr:Git Sync": false,
+      "janitor:Janitor: scan vault": false
     }
   },
   "active": "e393484e27bfc3b4",
   "lastOpenFiles": [
-    "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
     "+/Project Zomboid - Proyecto Estudiante de la UVa ELK dashboard.md",
+    "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
     "index.md",
     "README.md",
     "Atlas/Maps/Guides Map.md",

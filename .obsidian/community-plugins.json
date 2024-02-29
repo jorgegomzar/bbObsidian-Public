@@ -5,5 +5,7 @@
   "dataview",
   "templater-obsidian",
   "obsidian-timestamper",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "janitor",
+  "notes-dater"
 ]
