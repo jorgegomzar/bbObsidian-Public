@@ -4,31 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "efbaadc334939a9f",
+        "id": "94b87675246f89f6",
         "type": "tabs",
         "children": [
           {
-            "id": "63b345bcd1d52a81",
+            "id": "02c1e9cce4a1d117",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
+                "file": "Atlas/Maps/Snippets Map.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "e393484e27bfc3b4",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.50312423706055,
-    "collapsed": true
+    "width": 305.50312423706055
   },
   "right": {
     "id": "1e949530d4d87300",
@@ -87,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Atlas/Maps/Snippets Map.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Atlas/Maps/Snippets Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Atlas/Maps/Snippets Map.md"
+              }
             }
           }
         ]
@@ -147,11 +141,12 @@
       "janitor:Janitor: scan vault": false
     }
   },
-  "active": "e393484e27bfc3b4",
+  "active": "02c1e9cce4a1d117",
   "lastOpenFiles": [
-    "+/Untitled.md",
-    "+/Project Zomboid - Proyecto Estudiante de la UVa ELK dashboard.md",
+    "Atlas/Notes/Python script to move Obsidian Notes to Notion DB transforming properties into rows.md",
+    "Atlas/Maps/Snippets Map.md",
     "Atlas/Notes/Ideas/Project Zomboid server with monitorization.md",
+    "+/Project Zomboid - Proyecto Estudiante de la UVa ELK dashboard.md",
     "index.md",
     "README.md",
     "Atlas/Maps/Guides Map.md",
@@ -188,7 +183,6 @@
     "Atlas/Notes/Sources/Attachments/Obsidian links.png",
     "Atlas/Notes/People/Anna Falceto Piñol.md",
     "Atlas/Notes/Ideas/20240205 - Intro to Reporting Eng Tools - Anna Falceto.md",
-    "Atlas/Maps/CUED Map.md",
     "Atlas/Canvas/Untitled.canvas"
   ]
 }
